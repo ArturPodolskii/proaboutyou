@@ -249,3 +249,4 @@ body {
     user-select: none;
 }
 
+@media (max-width: 830px) {.menu-main a{font-size: 25px;}}
