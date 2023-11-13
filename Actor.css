@@ -48,7 +48,7 @@
   padding: 0 20px;
   font-size: 18px;
   letter-spacing: 2px;
-  font-family: 'Greenth', sans-serif;
+  font-family: 'Greenth','Amatic SC' sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255);
   transition: .3s linear;
@@ -98,7 +98,7 @@
 
       .active a {background-color: aliceblue; color: black;}
 
-      .blocktext{text-align: center; font-family: 'Greenth', sans-serif;}
+      .blocktext{text-align: center; font-family: 'Greenth','Amatic SC' sans-serif;}
       
 
 
