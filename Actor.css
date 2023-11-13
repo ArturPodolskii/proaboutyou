@@ -3,7 +3,14 @@
 
 
 
-
+@font-face {
+  font-family: "Greenth Grunge";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Greenth Grunge"),
+       /* Если не получилось, загрузит woff2 */
+       url('GreenthGrunge.otf') format("otf")}
 
 
 
@@ -48,7 +55,7 @@
   padding: 0 20px;
   font-size: 18px;
   letter-spacing: 2px;
-  font-family: 'Greenth','Amatic SC' sans-serif;
+  font-family: 'Greenth', 'Amatic SC' sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255);
   transition: .3s linear;
@@ -98,7 +105,7 @@
 
       .active a {background-color: aliceblue; color: black;}
 
-      .blocktext{text-align: center; font-family: 'Greenth','Amatic SC' sans-serif;}
+      .blocktext{text-align: center; font-family: 'Greenth', sans-serif;}
       
 
 
@@ -153,7 +160,7 @@ img{
 
 
 
-        @media(max-width:640px){body{background-image: url(ссссс.jpg); font-size: 20px;}}
+        @media(max-width:640px){body{background-image: url(ссссс.jpg) 60%; font-size: 20px;}}
         
           
     
